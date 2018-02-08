@@ -1,0 +1,32 @@
+button.big-button
+  background: $leaf-green
+  border: none
+  border-bottom: 0.6rem solid darken($leaf-green, 10%)
+  color: $off-black
+  font-weight: bold
+  font-size: $l-size
+  margin-bottom: $m-size
+  padding: 2.4rem
+  width: 100%
+
+.big-button:disabled
+  opacity: 0.5
+
+
+button.button
+  background: $leaf-green
+  border: none
+  border-bottom: 0.3rem solid darken($leaf-green, 10%)
+  color: $off-black
+  font-weight: 500
+  padding: $s-size
+
+button.button--plain
+  background: none
+  border: none
+  color: $olive-green
+  padding: 0
+
+@media (min-width: $desktop-breakpoint)
+  button.big-button
+    margin-bottom: $xl-size

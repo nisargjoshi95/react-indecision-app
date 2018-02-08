@@ -1,0 +1,21 @@
+.add-option-error
+  color: $off-black
+  font-style: italic
+  padding: $m-size
+  margin: $m-size 0 $m-size 0
+
+.add-option
+  display: flex
+  flex-direction: column
+
+.add-option__input
+  flex-grow: 1
+  background: $offer-white
+  border: none
+  border-bottom: 0.3rem solid darken($offer-white, 10%)
+  color: $off-black
+  padding: $s-size
+
+@media (min-width: $desktop-breakpoint)
+  .add-option
+    flex-direction: row
